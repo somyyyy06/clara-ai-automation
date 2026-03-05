@@ -1,0 +1,67 @@
+Speaker 1: 00:00 All right, letting David in now. Three, two, one. He’s in.
+
+Speaker 2: 00:16 Hey David, Nick here. Can you hear us okay?
+
+Speaker 3: 00:22 Yeah, I’ve got you. Sorry, just stepped out of the truck. It’s a bit windy out here in the driveway.
+
+Speaker 2: 00:26 No worries at all. Appreciate you making the time, I know you’re running ragged. I have Bharat here with me, our lead solutions expert. He’s the one who’s been architecting these AI flows for guys exactly in your position. Bharat, why don't you take the floor?
+
+Speaker 1: 01:06 Thanks, Nick. David, good morning. How’s the fleet treating you today?
+
+Speaker 3: 01:09 Man, it’s a circus. One van has a flat, and my lead guy called in sick, so I’m back on the tools today.
+
+Speaker 1: 01:15 That’s the reality of the growth phase. I was looking at Prime Electrical’s profile—you’ve made some big moves lately. You went from a solo operation to three vans in what, eighteen months?
+
+Speaker 3: 03:45 Yeah, about that. I was a "man in a van" for eight years. Then the EV charger boom hit, and I couldn't keep up. I hired two journeymen and an apprentice last year. It’s great for the bank account, but I feel like I’m working 100 hours a week just to keep the schedule straight.
+
+Speaker 1: 05:20 That’s the "Owner’s Trap." You’re trying to be the Master Electrician and the Office Manager at the same time. Who’s handling the intake calls right now?
+
+Speaker 3: 06:10 It’s mostly me. I have a virtual assistant from one of those overseas agencies for a few hours a day, but to be honest, it’s been a headache. They don’t know the difference between a 100-amp and a 200-amp service. They book jobs that we can’t even do, or they underquote the diagnostic fee. I end up spending more time fixing their mistakes than if I just took the calls myself.
+
+Speaker 1: 08:30 Exactly. And that’s where the revenue leaks happen. If you're under a crawlspace and a $4,000 panel upgrade lead calls, and you don't answer, they just click the next name on Google. What CRM are you using to track these?
+
+Speaker 3: 09:15 We’re on Jobber. I love it for the invoicing, but the "Request" bucket is always overflowing because I don't have time to vet the leads coming in from the website.
+
+Speaker 1: 15:40 This is why we built Clara. She isn't just a voice on the phone; she's a technical filter. She knows your pricing for a NEMA 14-50 install. She knows your service radius. And she talks to Jobber in real-time. Let's see if she can handle a "David-style" customer. I’m going to give you a demo line. Call it and act like a homeowner who wants a hot tub hooked up by tomorrow.
+
+Speaker 3: 21:06 All right, let's see what she's made of. Dialing now... putting it on speaker.
+
+(Phone rings twice)
+
+Speaker 4 (AI): 22:28 Thanks for calling Prime Electrical. This is Clara. How can I help you today?
+
+Speaker 3: 22:32 Yeah, hi. I just bought a big 50-amp hot tub and I need it wired up ASAP. Can you have someone here tomorrow morning?
+
+Speaker 4 (AI): 22:42 That sounds like a great addition to the home! To see if we can get someone out there tomorrow, I need to check a few details. Do you already have a sub-panel near the hot tub location, or will we need to run a new line from your main service panel?
+
+Speaker 3: 23:00 Uh, I’m not sure. I think the main panel is on the other side of the house.
+
+Speaker 4 (AI): 23:08 No problem. For a 50-amp tub with a long run, we usually need to do a site assessment to give you an accurate quote. I see David has an opening for a diagnostic estimate on Thursday afternoon. Would that work, or is this an emergency?
+
+Speaker 3: 23:25 Thursday is fine, but what's it going to cost me?
+
+Speaker 4 (AI): 23:31 Our standard service fee for a technician to come out, calculate the load, and provide a firm quote is $95. If you move forward with the project, we actually apply that $95 toward your total balance. Does that sound fair?
+
+Speaker 3: 24:10 (To Speaker 1) Wow. She actually handled the "credit back" objection. Most humans I hire forget to mention that part.
+
+Speaker 1: 24:25 And look at your Jobber screen right now, David. Refresh it.
+
+Speaker 3: 24:35 Holy... the request is already there. "Hot Tub Install - Long Run - Panel on opposite side." That’s cleaner than the notes I take.
+
+Speaker 1: 35:50 That’s the power of the integration. She doesn't just "take a message." She does the mental labor for you. We can even set her up to ask for a photo of their circuit breaker. She’ll text them a link, they snap a photo, and it attaches to the Jobber file. You can see if the panel is full before you even burn the gas to drive there.
+
+Speaker 3: 48:20 If I could stop driving out to "no-go" jobs because the panel is an old Federal Pacific or something that needs a full swap, that would save me ten hours a week alone.
+
+Speaker 1: 52:10 Exactly. You should be spending your time on high-margin installs, not driving around doing free estimates for people who aren't ready to buy. Clara acts as the gatekeeper.
+
+Speaker 3: 01:02:45 What does the setup look like? I'm not a tech genius. I can wire a house, but I hate messing with software.
+
+Speaker 1: 01:05:30 We do the heavy lifting. You give us access to your Jobber, we record a few of your common price points, and we "go live" in about five days. We start with a 90-day pilot. No long-term commitment because we want to prove the ROI first.
+
+Speaker 3: 01:09:15 I think I'm in. If this saves me even half the time I think it will, it pays for itself in a week.
+
+Speaker 1: 01:11:30 I’ll send the DocuSign over now. It’s the same one we discussed—$1,500 a month for the full dispatching AI. Once you sign, I'll introduce you to our onboarding lead, and we'll have your "Digital Office" running by Monday.
+
+Speaker 3: 01:11:52 Sounds like a plan. Thanks, guys. I've gotta get back to this sub-panel now.
+
+Speaker 1: 01:11:54 Catch you later, David. Stay safe.

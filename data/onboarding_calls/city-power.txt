@@ -1,0 +1,130 @@
+Speaker 1: 00:00 
+All right, we'll let Marcus in now. Three, two, one... and he's in.
+
+Speaker 2: 00:16 
+Hey Marcus, Nick here from Clara AI. Can you hear me okay?
+
+Speaker 3: 00:22 
+Yeah, I've got you. Just had to pull the van over so I could focus for a minute. How's it going guys?
+
+Speaker 2: 00:26 
+Doing great. Marcus, thank you so much for joining on such short notice. Before we start, I just wanted to introduce myself properly. I'm Nick. I'm part of the sales team here at Clara AI. We work specifically with trade businesses to automate their front office. And to help us with the deep-dive demo today, I have here with me my colleague Bharat, who’s our solutions expert and the growth partner here at Clara. He basically lives and breathes electrical contracting workflows. He’ll be the one walking you through the presentation. Over to you, Bharat.
+
+Speaker 1: 01:06 
+Thanks, Nick. Marcus, good morning. How are you doing?
+
+Speaker 3: 01:09 
+I'm doing well, man. Just busy. You know how it is—it's Tuesday, the phones have been ringing off the hook since 7:00 AM, and I'm currently trying to troubleshoot a smart panel issue in a driveway.
+
+Speaker 1: 01:20 
+I completely understand. That's actually the perfect backdrop for this conversation. I'm really glad we were able to connect. I did some research on City Power Electric before this call, and it’s impressive. You’ve really carved out a premium niche in high-end residential. I saw you're doing a lot of Lutron systems and full-home automation, which is not your standard "sparky" work. How long have you been running the business like this?
+
+Speaker 3: 02:05 
+Appreciate that. I’ve been an electrician for about 20 years, but I’ve been running City Power as my own shop for the last 12 years. We started just doing panel swaps and remodels, but over the last five years, we shifted focus. We have six full-time technicians now, plus me, and we run five vans. We mostly do high-end residential, smart home integration, and some light commercial tenant improvements. It’s profitable, but honestly? It’s stressful.
+
+Speaker 1: 03:30 
+I hear that from every owner I talk to. When you're managing six techs, who is handling the incoming customer calls? Is there an office manager, or are you fielding those?
+
+Speaker 3: 04:15 
+That’s the bottleneck. It’s mostly me. My wife helps with the books and some of the invoicing in the evenings, but during the day, if the phone rings, it goes to me. I’m trying to keep these smart home projects on track while also explaining to Mrs. Higgins why her smart switch isn't working. I miss a lot of leads. I’ll see a missed call, call them back two hours later, and they’ve already booked the guy down the street. It’s lost revenue, plain and simple.
+
+Speaker 1: 05:00 
+That’s the "Growth Trap," Marcus. You’re trying to scale, but your own time is the cap on that growth. What are you using for your CRM and dispatching right now?
+
+Speaker 3: 05:25 
+We’re on ServiceTitan. It’s powerful, and I love the dispatch board, but it doesn't solve the intake problem. ServiceTitan is great once the job is in the system, but getting it *into* the system is all manual labor. I’m typing in names, addresses, descriptions—it eats up three hours of my day.
+
+Speaker 1: 06:10 
+That is exactly why we built Clara. Clara isn't just an "answering service" like those call centers where they just take a message and email it to you. Clara is an AI agent that actually lives inside your ServiceTitan instance. She can read your schedule, she understands your pricing, and she can qualify the lead before she ever books it. She basically acts as your 24/7 digital office manager.
+
+Speaker 3: 07:45 
+Okay, that sounds good in theory. But these customers are high-maintenance. If they call and get an AI, they’re going to be annoyed. They want a human. Does she sound like a robot?
+
+Speaker 1: 08:15 
+That’s the biggest concern for every owner, and I’m glad you brought it up. Why don't we show you instead of telling you? I’m going to put a phone number on the screen. I want you to call it. Act like a customer—specifically, a frustrated one. Use your own "City Power" scenario. Ask about a Lutron system issue or a panel upgrade. See how she handles it.
+
+Speaker 3: 09:00 
+Alright, you're on. Let me dial this... okay, it's ringing. Putting it on speaker.
+
+Speaker 4 (AI): 09:12 
+Thank you for calling City Power Electric. This is Clara. How can I help you with your electrical needs today?
+
+Speaker 3: 09:20 
+Yeah, hi. I'm calling because my whole living room lighting setup is acting weird. I have the Lutron RadioRA3 system and the bridge keeps flashing red. I need someone to come fix it today, I'm hosting a dinner party.
+
+Speaker 4 (AI): 09:35 
+I understand, having lighting issues before a dinner party is stressful. I can certainly help you get someone out to look at that Lutron bridge. Before I check our availability, are you currently a client of ours?
+
+Speaker 3: 09:50 
+Yeah, you guys did my panel upgrade last year. 
+
+Speaker 4 (AI): 09:55 
+Perfect, let me pull up your account. I see you're in the system. To confirm, is that at 1224 Oakwood Drive?
+
+Speaker 3: 10:05 
+Yes, that’s it. Can you get someone here?
+
+Speaker 4 (AI): 10:09 
+I’m checking our ServiceTitan schedule now. We have a technician finishing up a job in your area. He can be there between 2:00 PM and 4:00 PM today. Does that window work for you?
+
+Speaker 3: 10:22 
+Yeah, 2:00 PM works. But wait, what’s the diagnostic fee? I don't want a surprise bill.
+
+Speaker 4 (AI): 10:30 
+Our standard diagnostic fee for smart home troubleshooting is $149. That covers the first hour of labor. If we need to replace the bridge, the tech will provide a quote on-site for the hardware and the labor before starting any work. Shall I book that slot for you?
+
+Speaker 3: 10:50 
+Yeah, go ahead.
+
+Speaker 4 (AI): 10:55 
+All right, Marcus. I have you booked for a diagnostic visit today between 2:00 PM and 4:00 PM. You'll receive a confirmation text shortly. Is there anything else I can help you with?
+
+Speaker 3: 11:08 
+No, that’s it. Thanks.
+
+Speaker 4 (AI): 11:11 
+You're very welcome. Thank you for choosing City Power Electric. Have a great day.
+
+*(Call ends)*
+
+Speaker 3: 11:20 
+Okay... wow. She actually pulled the address from my existing profile? And she quoted the diagnostic fee correctly?
+
+Speaker 1: 11:30 
+Exactly. And while you were on that call, a "New Booking" just populated in your ServiceTitan dashboard. It has the address, the phone number, the description of the problem, and the fee you quoted. You didn't lift a finger.
+
+Speaker 3: 11:55 
+That’s impressive. My biggest issue is usually "tire kickers"—people who call asking for free advice. Does she filter them out?
+
+Speaker 1: 12:10 
+That’s one of our favorite features. We program a "Gatekeeper" script. If someone calls asking, "Hey, how do I wire a 3-way switch?", she’ll say, "I can't provide technical advice over the phone for safety reasons, but I can have a technician come out and diagnose the issue for our standard fee." She keeps the conversation focused on revenue, not free consulting.
+
+Speaker 3: 13:40 
+What about analytics? I need to know how many calls we’re missing.
+
+Speaker 1: 14:00 
+Clara provides a full dashboard. You’ll see the number of calls, the number of successful bookings, the number of "spam" calls blocked, and even the sentiment of the calls. You’ll see exactly how much revenue you’re capturing that you were previously losing.
+
+Speaker 3: 14:45 
+This sounds like a game-changer. What’s the catch? Is it expensive?
+
+Speaker 1: 15:10 
+We work on a monthly subscription model, plus a small fee per booking. It’s significantly cheaper than hiring a full-time receptionist or an answering service that doesn't actually do anything. It pays for itself by capturing just two or three extra jobs a month.
+
+Speaker 3: 15:45 
+I think I’m sold. How do we get this set up? I don't have time for a three-month software rollout.
+
+Speaker 1: 16:00 
+We don't do three-month rollouts. We use your existing ServiceTitan setup. We spend about a week "training" Clara on your price book, your team, and your service areas. We can do a kickoff call tomorrow at 10:00 AM to get the API keys for ServiceTitan. If that works, we can have her live by the end of next week.
+
+Speaker 3: 16:30 
+10:00 AM tomorrow works for me. Send over the DocuSign and the invite.
+
+Speaker 1: 16:45 
+Fantastic. I’ll send the email right now. You’re going to love having your evenings back, Marcus.
+
+Speaker 3: 17:00 
+I really hope so. Thanks, guys.
+
+Speaker 1: 17:05 
+Anytime, Marcus. Talk soon.

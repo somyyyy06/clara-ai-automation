@@ -1,0 +1,16 @@
+{
+  "business_hours": null,
+  "office_address": null,
+  "services_supported": [
+    "inspections"
+  ],
+  "emergency_definition": [],
+  "emergency_routing_rules": null,
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": null,
+  "integration_constraints": null,
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": "Speaker 1: 00:00 All right, admitting Kevin into the meeting now. Three, two, one... he’s in.\r\n\r\nSpeaker 2: 00:16 Kevin! Good to see you again. Can you hear us clearly?\r\n\r\nSpeaker 3: 00:22 Yeah, I’ve "
+}

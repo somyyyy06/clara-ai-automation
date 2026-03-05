@@ -1,0 +1,283 @@
+{
+  "name": "onboarding pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c962b502-36b6-4a43-8cdd-d29ed1ba8f08",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  { json: { company: \"bens-electrical\" } },\n  { json: { company: \"city-power\" } },\n  { json: { company: \"northside-electric\" } },\n  { json: { company: \"prime-electrical\" } },\n  { json: { company: \"spark-electric\" } }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "2c080aee-1b4d-4354-b191-f9af7c030736",
+      "name": "Generate Companies"
+    },
+    {
+      "parameters": {
+        "fileSelector": "=/home/node/.n8n-files/data/onboarding_calls/{{$json.company}}.txt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "ff40f8c4-3257-49eb-b8d3-ce8aa209b881",
+      "name": "Read onboarding File"
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  const transcript = Buffer.from(item.binary.data.data).toString();\n\n  return {\n    json: {\n      company: item.binary.data.fileName.replace(\".txt\",\"\"),\n      transcript: transcript\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        624,
+        0
+      ],
+      "id": "fa5d349b-c3d7-40c6-903e-897b42ac65da",
+      "name": "Extract Transcript Text"
+    },
+    {
+      "parameters": {
+        "fileSelector": "=/home/node/.n8n-files/outputs/accounts/{{$json[\"company\"]}}/v1/memo.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        832,
+        0
+      ],
+      "id": "131b1bd9-a398-4a03-b164-18f4b42a5e9a",
+      "name": "read v1 memo"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "memo",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        32
+      ],
+      "id": "fd291c89-fa4d-49db-99e9-734b25bebdbc",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const memoObj = JSON.parse(item.json.memo);\n\nreturn {\n  json: {\n    company: item.json.company,\n    transcript: item.json.transcript,\n    memo: memoObj\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1248,
+        32
+      ],
+      "id": "e4720b01-860d-40e2-9804-b5a8591bf6cf",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const transcript = (item.json.transcript || \"\").toLowerCase();\n\nlet changes = [];\n\n// detect contact additions\nif (transcript.includes(\"contact\")) {\n  changes.push({\n    type: \"add_contact\",\n    note: \"New contact mentioned in transcript\"\n  });\n}\n\n// detect service additions\nif (transcript.includes(\"service\")) {\n  changes.push({\n    type: \"add_service\",\n    note: \"New service requested\"\n  });\n}\n\n// detect billing changes\nif (transcript.includes(\"billing\")) {\n  changes.push({\n    type: \"change_billing\",\n    note: \"Billing change mentioned\"\n  });\n}\n\nreturn {\n  json: {\n    account_id: item.json.company,\n    company: item.json.company,\n    transcript: item.json.transcript,\n    memo: item.json.memo,\n    changes: changes\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1456,
+        32
+      ],
+      "id": "302ddab4-8306-4527-9fd1-becafb964d67",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "each",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1664,
+        32
+      ],
+      "id": "db9e4eee-8350-4b60-91f9-36c010c6bd47",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/home/node/.n8n-files/outputs/accounts/{{$json[\"memo\"][\"account_id\"]}}/changes.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        1872,
+        32
+      ],
+      "id": "9c23afd4-95f9-4d86-b9c2-902b795cf45d",
+      "name": "write changes.json"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/home/node/.n8n-files/outputs/accounts/bens-electrical/v2/memo.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        2192,
+        32
+      ],
+      "id": "88780db8-7eed-42ee-bde9-374894275fa5",
+      "name": "write v2 memo.json"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Generate Companies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Companies": {
+      "main": [
+        [
+          {
+            "node": "Read onboarding File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read onboarding File": {
+      "main": [
+        [
+          {
+            "node": "Extract Transcript Text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Transcript Text": {
+      "main": [
+        [
+          {
+            "node": "read v1 memo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "read v1 memo": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "write changes.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "write changes.json": {
+      "main": [
+        [
+          {
+            "node": "write v2 memo.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "62b1ac97-3ffb-420d-b6f2-e5481ec509b6",
+  "meta": {
+    "instanceId": "9147d6f095d98aaf3a5654e64d0ee057a0cd1ab9e3276e11cf5885d893c539da"
+  },
+  "id": "4g5oX3CgZIaaX8zw",
+  "tags": []
+}

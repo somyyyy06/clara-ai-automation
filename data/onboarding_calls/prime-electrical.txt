@@ -1,0 +1,112 @@
+Speaker 1: 00:00 
+All right, bringing David in now. Three, two, one.
+
+Speaker 2: 00:16 
+Hey David, Nick here from Clara AI. Can you hear me okay?
+
+Speaker 3: 00:22 
+Yeah, I’ve got you. Sorry, I’m just finishing up a quick lunch in the truck. It’s been a wild morning.
+
+Speaker 2: 00:26 
+No worries at all. I appreciate you squeezing us in. I know when you're running a small crew, every minute counts. I have Bharat here with me, our lead solutions expert. He’s worked with dozens of shops that are exactly at your stage—transitioning from a one-man show to a multi-van fleet. Bharat, take it away.
+
+Speaker 1: 01:05 
+Thanks, Nick. David, great to meet you. I was looking at Prime Electrical’s Instagram page this morning—those panel upgrades you posted look exceptionally clean. You’ve clearly got a high standard for the work. How long have you been out on your own now?
+
+Speaker 3: 01:22 
+Thanks, man. I appreciate that. I’ve been an electrician for 15 years, but I started Prime about four years ago. For the first three years, it was just me and my tools. I did everything. But about 12 months ago, I finally hit a wall where I was turning away more work than I was taking. So, I hired my first journeyman, and then six months later, I added an apprentice. Right now, we’ve got three of us total and two vans on the road. I’m hoping to add a third van by the summer, but the office side of things is a total mess right now.
+
+Speaker 1: 02:15 
+That’s the classic "scaling wall." You’re trying to be the lead tech, the mentor, and the secretary all at once. When the phone rings while you’re up in an attic, what happens?
+
+Speaker 3: 02:35 
+Usually, it goes to voicemail. And we all know that in residential service, a voicemail is basically a dead lead. People want an answer now. If I don't pick up, they call the next guy on Google. I try to return calls while I’m driving between jobs, but I’m usually exhausted and I forget half the details. My wife tried to help for a while, but she’s got her own career. Right now, I’m spending from 7:00 PM to 10:00 PM every night just catching up on messages and trying to get quotes out. I’m burnt out, Bharat.
+
+Speaker 1: 03:50 
+I hear you. That "second shift" in the evening is what kills the dream of owning a business. You mentioned you’re using Jobber to keep things organized?
+
+Speaker 3: 04:10 
+Yeah, we use Jobber. I love the invoicing and the "Request" feature on my website. But again, someone has to actually look at those requests and schedule the visit. Half the requests I get are for things we don't even do, like residential solar or massive industrial projects. I waste so much time just filtering through the junk.
+
+Speaker 1: 05:05 
+That’s exactly where Clara shines for a shop like Prime. Because we integrate directly with Jobber, Clara acts as your intelligent front door. She doesn't just take a message; she qualifies the job. If someone calls about aluminum wiring mitigation or a hot tub circuit—things that are high-margin for you—she prioritizes them. If someone calls about something you don't do, she politely refers them elsewhere.
+
+Speaker 3: 06:15 
+Wait, can she actually book the appointment? Like, does she see my Jobber calendar?
+
+Speaker 1: 06:40 
+Yes. She sees your real-time availability. She knows that you need a 2-hour window for a troubleshooting call but a 4-hour window for a car charger install. Why don't we do a quick test? Call this number and act like a homeowner who just bought a hot tub and needs a 50-amp circuit installed. See if you can trip her up on the technical details.
+
+Speaker 3: 07:25 
+All right, dialing now. Speaker is on.
+
+Speaker 4 (AI): 07:35 
+Thank you for calling Prime Electrical Solutions. This is Clara. How can I help you today?
+
+Speaker 3: 07:45 
+Hi, I just bought a Sundance spa and I need someone to come out and wire it up. I need a 50-amp GFCI disconnect installed. Do you guys do that?
+
+Speaker 4 (AI): 08:00 
+Congratulations on the new hot tub! Yes, we specialize in dedicated circuit installations for spas and hot tubs. To give you an accurate quote, we’ll need to see how far your electrical panel is from the tub location. Would you like to schedule a site visit for an estimate?
+
+Speaker 3: 08:20 
+Yeah, but how much is that going to cost?
+
+Speaker 4 (AI): 08:25 
+For hot tub estimates, we charge a $79 site assessment fee. However, if you choose to move forward with Prime Electrical for the installation, we apply that $79 directly toward your project total. I see David has an opening this Friday at 10:00 AM or 2:00 PM. Would either of those work for you?
+
+Speaker 3: 08:50 
+Let's do 10:00 AM. Does the tech need to get inside the house?
+
+Speaker 4 (AI): 08:55 
+Yes, the technician will need access to your main breaker panel, which is usually located in the garage or basement, to verify your home's load capacity. I’ve booked you for Friday at 10:00 AM. May I have your name and address to finalize the request in our system?
+
+Speaker 3: 09:15 
+It’s David at 555 Maple Lane.
+
+Speaker 4 (AI): 09:20 
+Thank you, David. I’ve sent a confirmation text to this number. Is there anything else I can help you with?
+
+Speaker 3: 09:28 
+No, that's all. Thanks.
+
+*(Call ends)*
+
+Speaker 3: 09:35 
+Bharat, that was crazy. She even mentioned the "load capacity" check. That’s exactly what I tell people so they don't think I’m just coming over to look at a deck.
+
+Speaker 1: 09:45 
+Exactly. We "clone" your expertise into her script. Now, look at your Jobber "Requests" tab right now. 
+
+Speaker 3: 09:55 
+(Pauses) Oh man... it's right here. "Hot Tub Circuit - Sundance Spa - 50 amp GFCI." It even tagged it as an estimate.
+
+Speaker 1: 10:15 
+And because she already collected the $79 service fee agreement, you’re not walking into a "free estimate" where the guy just wants to pick your brain. You’re walking into a qualified lead. This alone would probably save you five hours of office work a week.
+
+Speaker 3: 11:30 
+What about spam? I get so many calls from "Google Listing" scammers and people trying to sell me leads. 
+
+Speaker 1: 11:45 
+Clara kills 100% of those. They can't get past the initial prompt because they aren't real customers with real electrical problems. Your phone will stop vibrating with junk, and you’ll only get a notification when a real job is booked or a high-priority message is left.
+
+Speaker 3: 13:00 
+This sounds perfect for where I’m at. I need to get out of the "office" and back into growing the team. What’s the pricing look like for a small shop?
+
+Speaker 1: 13:20 
+For a 2-van setup, we have our "Growth Plan." It’s a low monthly base, and we only charge you for successful bookings. It’s designed to scale with you. As you add that third van, Clara just works harder. 
+
+Speaker 3: 14:00 
+I’m in. I want to try this for 90 days. What do I need to do?
+
+Speaker 1: 14:15 
+I’ll send over the DocuSign. Once you sign, we’ll do a 30-minute kickoff tomorrow to link your Jobber account and go over your specific pricing. Can you do 4:00 PM tomorrow?
+
+Speaker 3: 14:35 
+4:00 PM is perfect. I’ll be back in the office by then.
+
+Speaker 1: 14:45 
+Great. I’ll send the invite now. Looking forward to helping Prime Electrical hit that 3-van goal, David!
+
+Speaker 3: 15:00 
+Thanks, guys. Really excited about this.

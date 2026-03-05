@@ -1,0 +1,81 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "25207c76-bebc-4890-8528-aa5736460b45",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8000/run-demo",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "2e107741-dcf1-48f6-8d12-05db574b5b78",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8000/run-onboarding",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        416,
+        0
+      ],
+      "id": "1a4e77f9-c54a-4884-a0f8-2202d3afd5f8",
+      "name": "HTTP Request1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "4b521442-2148-483b-9d7c-7a62c9ede3f0",
+  "meta": {
+    "instanceId": "b20b7380907c9115fbe93817c6a17146153acbbfc97e9d746249ba8e90974040"
+  },
+  "id": "OduSzZIriD8BZdzi",
+  "tags": []
+}

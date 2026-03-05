@@ -1,0 +1,34 @@
+{
+    "account_id": "prime-electrical",
+    "company_name": null,
+    "business_hours": {
+        "days": [],
+        "start": null,
+        "end": null,
+        "timezone": null
+    },
+    "office_address": null,
+    "services_supported": [],
+    "emergency_definition": [],
+    "emergency_routing_rules": {
+        "primary_contact": null,
+        "fallback_contact": null,
+        "notes": null
+    },
+    "non_emergency_routing_rules": {},
+    "call_transfer_rules": {
+        "timeout_seconds": null,
+        "retry_attempts": null,
+        "failure_message": null
+    },
+    "integration_constraints": [],
+    "after_hours_flow_summary": "",
+    "office_hours_flow_summary": "",
+    "questions_or_unknowns": [
+        "Business hours not specified",
+        "Company name not clearly mentioned",
+        "Emergency definition not clearly specified"
+    ],
+    "notes": "",
+    "version": "v1"
+}

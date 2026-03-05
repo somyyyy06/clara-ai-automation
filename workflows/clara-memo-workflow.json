@@ -1,0 +1,197 @@
+{
+  "name": "Clara Memo Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "read",
+        "fileSelector": "C:\\Users\\somya\\.n8n-files\\data\\onboarding_calls\\*.txt"
+      },
+      "id": "1",
+      "name": "Read Transcript Files",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "data"
+      },
+      "id": "2",
+      "name": "Extract Text",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Extract company name from filename instead of using unreliable array indexing\nconst item = $input.item;\n\n// Get the filename from binary data\nconst binaryData = item.binary.data;\nconst fileName = binaryData.fileName || '';\n\n// Extract company name (e.g., \"bens-electrical.txt\" -> \"bens-electrical\")\nconst companyName = fileName.replace('.txt', '');\n\n// Add fields to the item\nitem.json.company = companyName;\nitem.json.transcript = item.json.text;\nitem.json.fileName = fileName;\n\nreturn item;"
+      },
+      "id": "3",
+      "name": "Extract Company Name",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "model": "gpt-4o-mini",
+        "options": {
+          "temperature": 0.3
+        },
+        "text": "=You are a sales meeting assistant analyzing customer onboarding call transcripts.\n\nGiven the following transcript, produce:\n1. A concise summary (2-3 sentences)\n2. Three key bullet points highlighting important information\n\nIMPORTANT: Return ONLY valid JSON with this exact structure:\n{\n  \"summary\": \"your summary here\",\n  \"key_points\": [\"point 1\", \"point 2\", \"point 3\"]\n}\n\nTranscript:\n{{ $json.transcript }}"
+      },
+      "id": "4",
+      "name": "OpenAI Summary",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1,
+      "position": [850, 300],
+      "credentials": {
+        "openAiApi": {
+          "id": "1",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item;\n\ntry {\n  // Get the LLM response\n  let llmResponse = item.json.message?.content || item.json.text || '';\n  \n  // Some LLM responses may wrap JSON in markdown code blocks\n  llmResponse = llmResponse.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  \n  // Parse the JSON\n  const parsed = JSON.parse(llmResponse);\n  \n  // Add parsed fields to item\n  item.json.summary = parsed.summary;\n  item.json.key_points = parsed.key_points;\n  \n  return item;\n  \n} catch (error) {\n  // If parsing fails, create default values\n  item.json.summary = \"Error: Could not parse LLM response\";\n  item.json.key_points = [\"Parsing error\", \"Check LLM output\", \"Verify JSON format\"];\n  item.json.error = error.message;\n  item.json.raw_response = item.json.message?.content || item.json.text;\n  \n  return item;\n}"
+      },
+      "id": "5",
+      "name": "Parse LLM Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1050, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item;\n\n// Build the memo object in the exact format you need\nconst memo = {\n  company: item.json.company,\n  summary: item.json.summary,\n  key_points: item.json.key_points,\n  version: \"v1\",\n  processed_at: new Date().toISOString()\n};\n\nitem.json.memo = memo;\n\nreturn item;"
+      },
+      "id": "6",
+      "name": "Build Memo Object",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1250, 300]
+    },
+    {
+      "parameters": {
+        "mode": "jsonToBinary",
+        "convertAllData": false,
+        "sourceKey": "memo",
+        "options": {
+          "fileName": "memo.json",
+          "mimeType": "application/json"
+        }
+      },
+      "id": "7",
+      "name": "Convert to File",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1,
+      "position": [1450, 300]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=C:\\Users\\somya\\.n8n-files\\data\\outputs\\accounts\\{{ $json.company }}\\v1\\memo.json",
+        "options": {
+          "createDirectories": true
+        }
+      },
+      "id": "8",
+      "name": "Write to Disk",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [1650, 300]
+    }
+  ],
+  "connections": {
+    "Read Transcript Files": {
+      "main": [
+        [
+          {
+            "node": "Extract Text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Text": {
+      "main": [
+        [
+          {
+            "node": "Extract Company Name",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Company Name": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Summary": {
+      "main": [
+        [
+          {
+            "node": "Parse LLM Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse LLM Response": {
+      "main": [
+        [
+          {
+            "node": "Build Memo Object",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Memo Object": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Write to Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2026-03-05T10:00:00.000Z",
+  "versionId": "1"
+}

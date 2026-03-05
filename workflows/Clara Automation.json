@@ -1,0 +1,238 @@
+{
+  "name": "Clara Automation",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "313c3ccb-494d-4680-9a19-c2ca1126146b",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/data/demo_calls/*.txt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "85da6eb8-3902-4d3c-937d-16c5bc045684",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const fileName = $input.item.binary.data.fileName;\nconst company = fileName.replace(\".txt\", \"\");\n\nreturn {\n  json: {\n    company: company\n  },\n  binary: $input.item.binary\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "4fde60cf-48bd-4d18-9fa2-c4221bce751e",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "text",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        624,
+        0
+      ],
+      "id": "1a200d8d-5fac-486c-af91-4d5a5368c780",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const transcript = $json.text.toLowerCase();\n\nfunction detectServices(text){\n  const services=[];\n\n  if(text.includes(\"sprinkler\")) services.push(\"sprinkler systems\");\n  if(text.includes(\"alarm\")) services.push(\"fire alarm systems\");\n  if(text.includes(\"extinguisher\")) services.push(\"extinguishers\");\n  if(text.includes(\"inspection\")) services.push(\"inspections\");\n\n  return services;\n}\n\nfunction detectEmergency(text){\n  const triggers=[];\n\n  if(text.includes(\"leak\")) triggers.push(\"sprinkler leak\");\n  if(text.includes(\"alarm going off\")) triggers.push(\"alarm triggered\");\n  if(text.includes(\"fire\")) triggers.push(\"fire emergency\");\n\n  return triggers;\n}\n\nreturn {\n  json:{\n    account_id:$json.company,\n    company_name:$json.company,\n    business_hours:null,\n    office_address:null,\n    services_supported:detectServices(transcript),\n    emergency_definition:detectEmergency(transcript),\n    emergency_routing_rules:null,\n    non_emergency_routing_rules:null,\n    call_transfer_rules:null,\n    integration_constraints:null,\n    after_hours_flow_summary:null,\n    office_hours_flow_summary:null,\n    questions_or_unknowns:[],\n    notes:$json.text.substring(0,200)\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        832,
+        0
+      ],
+      "id": "fb07a7cf-c3ea-47df-8886-bed4322effe7",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const memo = $json;\n\nconst memoString = JSON.stringify(memo, null, 2);\n\n// get company name from the earlier node that created it\nconst company = $items(\"Code in JavaScript\")[0].json.company;\n\nreturn {\n  json: {\n    company: company,\n    memoString: memoString\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1040,
+        0
+      ],
+      "id": "5e2d19d7-9a81-432c-8a8e-2c381458aa0f",
+      "name": "Code in JavaScript2"
+    },
+    {
+      "parameters": {
+        "operation": "toText",
+        "sourceProperty": "memoString",
+        "options": {
+          "encoding": "utf8",
+          "fileName": "memo.json"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1248,
+        0
+      ],
+      "id": "93f260b7-38bb-490b-b5e4-a9d7b3dddafb",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/home/node/.n8n-files/memo-{{$json.company}}.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        1664,
+        0
+      ],
+      "id": "46e60042-f20e-4783-b8fb-a7c98cb48ce0",
+      "name": "Read/Write Files from Disk1",
+      "executeOnce": false
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map((item, index) => {\n  const company = $items(\"Code in JavaScript2\")[index].json.company;\n\n  item.json = {\n    company: company\n  };\n\n  return item;\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1456,
+        0
+      ],
+      "id": "d0998adb-0c5d-4e88-824f-d86d8d19bde2",
+      "name": "Code in JavaScript3"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript2": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript3": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "8eeb4da0-1ca2-4985-a28f-041c0f5ad853",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "9147d6f095d98aaf3a5654e64d0ee057a0cd1ab9e3276e11cf5885d893c539da"
+  },
+  "id": "uXqxmrbxIMWkSYjI",
+  "tags": []
+}

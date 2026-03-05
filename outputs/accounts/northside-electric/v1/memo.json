@@ -1,0 +1,37 @@
+{
+    "account_id": "northside-electric",
+    "company_name": "the electrical room",
+    "business_hours": {
+        "days": [],
+        "start": null,
+        "end": null,
+        "timezone": null
+    },
+    "office_address": null,
+    "services_supported": [
+        "maintenance"
+    ],
+    "emergency_definition": [
+        "a main breaker trip at a grocery store where they\u2019re losing thousands in frozen inventory. I need someone\u2014or something\u2014that can actually triage.",
+        "me to book this as an \"Emergency Commercial Call\"? Our after-hours diagnostic rate for commercial properties is $250."
+    ],
+    "emergency_routing_rules": {
+        "primary_contact": null,
+        "fallback_contact": null,
+        "notes": null
+    },
+    "non_emergency_routing_rules": {},
+    "call_transfer_rules": {
+        "timeout_seconds": null,
+        "retry_attempts": null,
+        "failure_message": null
+    },
+    "integration_constraints": [],
+    "after_hours_flow_summary": "",
+    "office_hours_flow_summary": "",
+    "questions_or_unknowns": [
+        "Business hours not specified"
+    ],
+    "notes": "",
+    "version": "v1"
+}

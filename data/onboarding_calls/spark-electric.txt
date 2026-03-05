@@ -1,0 +1,106 @@
+Speaker 1: 00:00 
+All right, admitting Kevin now. Three, two, one... and he’s in.
+
+Speaker 2: 00:16 
+Hey Kevin, Nick here from Clara AI. Good to see you again. Can you hear us clearly?
+
+Speaker 3: 00:22 
+Yeah, I’ve got you. Just getting settled in the office. It’s been a frantic morning—had a crew hit an underground line on a commercial site, so I’ve been on the phone with the city and utility companies for two hours.
+
+Speaker 2: 00:30 
+Man, that sounds like a headache. We appreciate you sticking to the schedule despite the chaos. You remember Bharat? He’s our lead solutions architect. He’s been looking into your current setup at Spark to see how we can offload some of that administrative pressure.
+
+Speaker 1: 01:06 
+Morning, Kevin. Tough break with the underground line, but that’s the nature of the beast in industrial work. I’ve been looking at your growth metrics for Spark Electric Services—you guys have expanded faster than almost anyone in the region. You're running eight vans now, right?
+
+Speaker 3: 01:25 
+Eight vans, plus two dedicated box trucks for our industrial contracts and heavy equipment. We’ve grown about 40% year-over-year, mostly because we jumped on the EV infrastructure wave and commercial LED retrofits early. We’re doing a lot of multi-family condo work now. But honestly, Bharat, the wheels are starting to wobble on the admin side. I feel like we're successful in spite of our office process, not because of it.
+
+Speaker 1: 02:15 
+That’s exactly what happens when you scale past the "small shop" size. You’ve got a real fleet now. How many dispatchers do you have sitting in the office currently?
+
+Speaker 3: 02:40 
+I’ve got two full-time dispatchers, and they are absolutely drowning. They’re handling roughly 150 to 200 calls a day. A lot of those are just people asking, "When is the tech coming?" or "Do you do free estimates?" My highly-trained office staff is spending 70% of their day answering basic questions that don't require a human brain. It’s expensive, and more importantly, they’re burnt out. When they're stressed, the customer service quality dips.
+
+Speaker 1: 03:50 
+And when they’re burnt out, they miss the high-value industrial leads because they're stuck on the phone with a residential caller asking about a $50 outlet replacement. You’re using ServiceM8 for the backend, correct?
+
+Speaker 3: 04:10 
+Yes, we’re fully integrated with ServiceM8 and we use Xero for the books. I need something that doesn't just "take a message," but actually understands our specific "Job Tokens" and can categorize a call as "Warranty," "New Quote," or "Emergency." If it can't talk to ServiceM8, it's just another tool I have to manage.
+
+Speaker 1: 05:05 
+Clara was built for this level of complexity. Because she’s indexed your ServiceM8 history, she knows your recurring clients. She knows that if "XYZ Property Management" calls, they have a net-30 billing agreement and priority dispatching. She doesn't just listen; she extracts data. She can see your ServiceM8 schedule, find a gap in a specific technician’s route based on their GPS location, and offer that slot. Let's do a "Stress Test." I want you to call this demo number and be as difficult as possible. Act like a condo board member who is angry about an EV charger delay.
+
+Speaker 3: 06:15 
+Oh, I can do that. I hear that guy five times a day. Dialing now... putting it on speaker.
+
+Speaker 4 (AI): 06:25 
+Thank you for calling Spark Electric Services. This is Clara. Am I speaking with a new customer, or are you calling about an existing project?
+
+Speaker 3: 06:35 
+I'm calling about the EV project at the Willow Creek Condos. You guys were supposed to be here yesterday to finish the charging stations and nobody showed up. This is ridiculous, we have residents breathing down our necks.
+
+Speaker 4 (AI): 06:50 
+I apologize for the frustration, I can certainly look into that for you. I see the project for Willow Creek under the name 'Kevin.' I’m checking the latest status in our ServiceM8 system. Ah, it looks like there was a delay in the permit inspection from the city yesterday. I see a note here that the inspector has rescheduled for tomorrow morning. Would you like me to have the project lead, Mike, give you a call this afternoon with a specific arrival time for the final hookup?
+
+Speaker 3: 07:20 
+Wait... you can see the city permit notes? 
+
+Speaker 4 (AI): 07:25 
+Yes, I have access to the project status notes and the communication logs for Willow Creek. I can also send you a link via text right now that shows the updated timeline for the rest of the installation so you can share it with your residents. Would that be helpful?
+
+Speaker 3: 07:45 
+Yeah, send that over. And what about the billing? Is the final invoice going to reflect the delay?
+
+Speaker 4 (AI): 07:52 
+I’ve noted your concern regarding the billing for the project manager to review. Since this was a city-side delay, I’ll flag this for our billing department to see if we can offer a courtesy credit on the final invoice. Is there anything else I can assist with?
+
+Speaker 3: 08:10 
+No, that’s actually very helpful. Thanks.
+
+*(Call ends)*
+
+Speaker 3: 08:20 
+Bharat, that’s a game-changer. My dispatchers usually have to dig through three different screens and a physical folder to find that permit note. She found it in three seconds.
+
+Speaker 1: 08:35 
+Because she’s reading the database at machine speed. Imagine your staff only handling the truly complex issues—like that underground line hit you had this morning—while Clara handles the 100 people a day asking for status updates. 
+
+Speaker 3: 09:15 
+What about the technical intake? If someone wants a new industrial 480-volt service for a warehouse, can she qualify them? Or is she going to book it as a residential service call?
+
+Speaker 1: 09:40 
+We’ll program her with your "Industrial Logic Tree." She’ll ask: "Is the service 1-phase or 3-phase? Do you have the transformer specs or a site plan?" If they don't know, she'll ask them to snap a photo of the data plate on their current panel. She then sends that photo directly to your estimator’s ServiceM8 inbox. You’re cutting out the "back and forth" emails that usually take three days.
+
+Speaker 3: 10:15 
+If I can get my estimators to stop chasing photos of nameplates, I can double our quote output. My guys are expensive; I don't want them driving 40 minutes just to realize they need a different breaker type.
+
+Speaker 1: 11:00 
+Exactly. And the "Spam Filter" at your volume is massive. You're probably getting 20-30 robocalls a day on those main business lines. Clara handles them silently. Your office stays quiet so your team can actually think.
+
+Speaker 3: 12:30 
+I'm convinced on the tech. Let's talk about the transition. With 8 vans and 2 dispatchers, I can't afford a "blackout" period where the phones don't work.
+
+Speaker 1: 12:45 
+We do a "Shadow Phase" first. For the first four days, Clara just "listens" to your calls in the background to learn your staff’s specific vocabulary and how you prefer to phrase your service fees. Then we do a "Soft Launch" where she only handles after-hours calls. Once you’re comfortable, we flip the switch for daytime overflow. You’re always in control.
+
+Speaker 3: 14:00 
+I like that. What’s the investment for an enterprise-level setup like Spark?
+
+Speaker 1: 14:15 
+For your volume, we have the "Elite Fleet" tier. It’s a flat monthly platform fee that covers all 8 vans, plus a performance-based fee for every qualified job she books. Considering she’ll likely replace the need for you to hire a third dispatcher this year, the ROI is usually about 4x to 5x.
+
+Speaker 3: 15:05 
+If she prevents even one "no-show" on a commercial site, she's paid for herself. Let's do it. What's the timeline?
+
+Speaker 1: 15:20 
+I’ll send over the agreement now. Once signed, we’ll do a 60-minute technical kickoff on Thursday. We’ll need your ServiceM8 admin and your lead dispatcher, just so we can map the Job Tokens correctly. Can you do 11:00 AM on Thursday?
+
+Speaker 3: 15:50 
+11:00 AM works. My team is going to be skeptical, but after they see that demo, they’re going to be thrilled to have the help.
+
+Speaker 1: 16:10 
+They usually are! Clara isn't there to replace them; she’s there to be the assistant they’ve always wanted. I’ll send the invite now, Kevin.
+
+Speaker 3: 16:25 
+Thanks, Bharat. Let's get to work.

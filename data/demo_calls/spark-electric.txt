@@ -1,0 +1,55 @@
+Speaker 1: 00:00 All right, admitting Kevin into the meeting now. Three, two, one... he’s in.
+
+Speaker 2: 00:16 Kevin! Good to see you again. Can you hear us clearly?
+
+Speaker 3: 00:22 Yeah, I’ve got you. Just getting settled in the office. It’s been a frantic morning—had a crew hit an underground line, so I’ve been on the phone with the city for two hours.
+
+Speaker 2: 00:30 Man, it never rains but it pours. I appreciate you sticking to the schedule. You remember Bharat? He’s our lead architect for the Clara platform. He’s been looking into your current setup at Spark to see how we can offload some of that chaos.
+
+Speaker 1: 01:06 Morning, Kevin. Tough break with the underground line, but that’s the nature of the beast. I’ve been looking at your growth metrics for Spark Electric—you guys have expanded faster than almost anyone in the region. Eight vans on the road now, right?
+
+Speaker 3: 03:45 Eight vans, plus two dedicated box trucks for our industrial contracts. We’ve grown about 40% year-over-year, mostly because we jumped on the EV infrastructure wave early. We’re doing a lot of multi-family condo retrofits now. But honestly, Bharat, the wheels are starting to wobble on the admin side.
+
+Speaker 1: 05:20 That’s exactly what happens when you scale past the "family business" size. You’ve got a real fleet now. How many dispatchers do you have sitting in the office?
+
+Speaker 3: 06:10 I’ve got two full-time dispatchers, and they are drowning. They’re handling roughly 150 calls a day. A lot of those are just people asking, "When is the tech coming?" or "Do you do free estimates?" My highly-trained office staff is spending 60% of their day answering basic questions that don't require a human brain. It’s expensive, and they’re burnt out.
+
+Speaker 1: 08:30 And when they’re burnt out, they stop being polite, or they miss the high-value commercial leads. You’re using ServiceM8 for the backend, correct?
+
+Speaker 3: 09:15 Yes, we’re fully integrated with ServiceM8 and Xero for the books. I need something that doesn't just take a message, but actually understands our "Job Tokens" and can categorize a call as "Warranty," "New Quote," or "Emergency."
+
+Speaker 1: 15:40 That is Clara’s bread and butter. She doesn't just listen; she extracts data. She can see your ServiceM8 schedule, find a gap in a specific technician’s route, and offer that slot to a customer. Let's do a "Stress Test." I’m going to put the Spark-specific demo number up. Call it and be as difficult as possible. Act like a condo board member who is angry about an EV charger delay.
+
+Speaker 3: 21:06 Oh, I can do that. I hear that guy five times a day. Dialing now...
+
+(Phone rings)
+
+Speaker 4 (AI): 22:28 Thank you for calling Spark Electric. This is Clara. Am I speaking with a new customer, or are you calling about an existing project?
+
+Speaker 3: 22:32 I'm calling about the project at the Willow Creek Condos. You guys were supposed to be here yesterday to finish the charging stations and nobody showed up. This is ridiculous.
+
+Speaker 4 (AI): 22:45 I apologize for the frustration, I can certainly look into that for you. I see the project for Willow Creek under the name 'Kevin.' It looks like there was a delay in the permit inspection from the city. I see a note here that the inspection has been rescheduled for tomorrow morning. Would you like me to have the project lead, Mike, give you a call with a specific arrival time?
+
+Speaker 3: 23:10 Wait... you can see the city permit notes?
+
+Speaker 4 (AI): 23:15 Yes, I have access to the project status notes in our system. I can also send you a link via text right now that shows the updated timeline for the Willow Creek installation. Would that be helpful?
+
+Speaker 3: 24:10 (To Speaker 1) Okay, that’s a game-changer. My dispatchers usually have to dig through three different screens to find that permit note. She found it in three seconds.
+
+Speaker 1: 24:25 Because she’s indexed your entire ServiceM8 database. She isn't searching; she knows. Imagine your staff only handling the truly complex issues while Clara handles the 100 people a day asking for status updates.
+
+Speaker 3: 35:50 What about the technical intake? If someone wants a new industrial 480V service, can she qualify them?
+
+Speaker 1: 36:15 We’ll program her with your "Technical Tree." She’ll ask: "Is the service 1-phase or 3-phase? Do you have the transformer specs?" If they don't know, she'll ask them to snap a photo of the data plate. She then sends that photo directly to your estimator’s dashboard. You’re cutting out the "back and forth" emails that usually take three days.
+
+Speaker 3: 48:20 If I can get my estimators to stop chasing photos of nameplates, I can double our quote output. How does the deployment work for a fleet this size?
+
+Speaker 1: 52:10 For Spark, we do a "Shadow Phase" first. She listens to your calls for four days to learn your staff’s specific vocabulary. Then we flip the switch. We’ll start with a 3-month pilot. At your volume, you’ll see the ROI in the first 30 days just from the "recovered" missed calls alone.
+
+Speaker 3: 01:05:30 I've seen enough. I want to see this integrated with our dispatch board. If she can truly auto-assign the smaller residential calls, my team can finally focus on the commercial contracts.
+
+Speaker 1: 01:11:30 I’ll send over the agreement now. It’s scaled for your 8-van volume as we discussed. Once the DocuSign is in, we’ll start the data ingestion. I’ll see you on the kickoff call tomorrow at 11:00 AM.
+
+Speaker 3: 01:11:52 Sounds good. I’m looking forward to getting some of my life back. Talk tomorrow.
+
+Speaker 1: 01:11:54 Talk then, Kevin. Good luck with the city today.

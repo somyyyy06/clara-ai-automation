@@ -1,0 +1,112 @@
+Speaker 1: 00:00 
+All right, letting Sarah in now. Three, two, one... and she’s joined.
+
+Speaker 2: 00:16 
+Hi Sarah, Nick here from Clara AI. Can you hear and see us okay?
+
+Speaker 3: 00:22 
+Hey Nick. Yeah, I’ve got you. Sorry if I’m a bit winded, I just ran in from the warehouse. We’ve had a bit of a chaotic morning with a transformer issue at one of our retail sites.
+
+Speaker 2: 00:30 
+No worries at all, Sarah. We know that in the commercial world, "quiet mornings" don't really exist. I appreciate you carving out this block of time. I have Bharat with me, our lead solutions architect. He’s the one who’s been helping commercial shops like yours really dial in their automation so these "chaotic mornings" don't turn into chaotic weeks. Bharat, over to you.
+
+Speaker 1: 01:05 
+Thanks, Nick. Sarah, pleasure to meet you. I was doing a deep dive into Northside Electric’s profile this morning. You guys have been around for quite a while, right? I saw some history about the company starting in the late 90s?
+
+Speaker 3: 01:22 
+That’s right. My father started Northside in 1997. It was just him and a beat-up Ford Econoline back then. I took over the operations about six years ago. We’ve grown a lot since the early days—we’re currently running eight technicians and we have seven vans on the road. We shifted our focus almost entirely to commercial maintenance and industrial service contracts about a decade ago. We still do some high-end residential, but 80% of our revenue comes from property management groups and shopping centers.
+
+Speaker 1: 02:15 
+Eight techs is a significant operation. With that many moving parts and high-stakes commercial contracts, how are you managing the intake? Who is sitting at the front desk?
+
+Speaker 3: 02:40 
+That’s actually why I’m talking to you. Right now, I have one full-time office manager, Brenda. She’s amazing, but she’s human. She takes lunch, she goes home at 5:00 PM, and she gets overwhelmed when three property managers call at the same time during a storm. When she’s not there, the calls go to an answering service. And honestly? The answering service is killing my brand. They don't know the technical side. They just take a name and number, and half the time they misspell the business name or get the urgency level wrong. I end up calling back a "Priority 1" emergency two hours late because the message made it sound like a simple bulb replacement.
+
+Speaker 1: 03:50 
+That’s a classic pain point in commercial service. The "middleman" filter of an answering service often loses the technical nuance. You’re using Housecall Pro for your dispatching, right?
+
+Speaker 3: 04:10 
+Yes, we’ve been on Housecall Pro for three years. It’s great for the guys in the field to see their jobs and upload photos, but it doesn't do anything for the 2:00 AM emergency call. I’m the one who ends up getting the "after-hours" patches to my personal cell phone. I haven't had a full night's sleep without an interrupted call in months.
+
+Speaker 1: 05:05 
+Well, that’s exactly where Clara steps in. Think of Clara not as a "bot," but as a digital extension of Brenda. Because we integrate directly with Housecall Pro’s API, Clara knows your technicians’ skill sets. She knows that "Mike" is your lead for industrial 3-phase work, and "Jason" handles the light commercial ballast swaps. When a call comes in at 3:00 AM, she doesn't just take a message—she triages the issue based on your specific criteria.
+
+Speaker 3: 06:15 
+Can she actually differentiate between an emergency and a standard service request? Because my "emergency" rate is double my standard rate, and I don't want to send a guy out on overtime pay for something that isn't critical.
+
+Speaker 1: 06:40 
+Absolutely. We program a "Logic Tree" specific to Northside. If a caller says, "A whole circuit is down in a medical lab," Clara identifies that as a P1 Emergency. If they say, "We need a quote for new LED parking lot lights," she identifies that as a Sales Lead and schedules it for a follow-up during business hours. Why don't we try a demo? I’ll give you a number. I want you to call it and act like a property manager with a serious commercial issue. Try to be a bit technical and see how she holds up.
+
+Speaker 3: 07:25 
+Okay, let’s see. I’m dialing the demo line now... putting it on speaker.
+
+Speaker 4 (AI): 07:35 
+Thank you for calling Northside Electric. This is Clara. Are you calling about an existing maintenance contract, or do you have a new service request?
+
+Speaker 3: 07:45 
+I’m a property manager for the Sterling Plaza. We’ve got a 480-volt rooftop unit that just lost power, and I think we’ve blown a main fuse in the disconnect. I need an industrial tech out here now.
+
+Speaker 4 (AI): 08:00 
+I understand, a power loss on a 480-volt unit at Sterling Plaza is definitely a priority. I see your account here in our system. Because this involves high-voltage industrial equipment, I will need to dispatch one of our senior commercial technicians. Since it is currently outside of our standard window, this would be billed at our emergency rate of $275 for the dispatch and the first hour. Do you authorize that charge so I can send someone immediately?
+
+Speaker 3: 08:35 
+Yes, just get someone here. Do you have a tech with a bucket truck available?
+
+Speaker 4 (AI): 08:42 
+I’m checking our Housecall Pro schedule now. I see that our technician, Dave, is available and his van is equipped with a 30-foot lift for rooftop access. I have scheduled him to arrive within the next 90 minutes. You will receive a tracking link via SMS as soon as he is en route. Is there a specific gate code he needs to access the rooftop?
+
+Speaker 3: 09:10 
+Yeah, it’s 4455.
+
+Speaker 4 (AI): 09:15 
+Got it. I’ve added gate code 4455 to the job notes. Dave will be there shortly. Is there anything else I can assist you with today?
+
+Speaker 3: 09:25 
+No, that’s perfect. Thanks.
+
+Speaker 4 (AI): 09:28 
+You're welcome. Thank you for choosing Northside Electric. Stay safe.
+
+*(Call ends)*
+
+Speaker 3: 09:35 
+Wait... Bharat, how did she know about the bucket truck?
+
+Speaker 1: 09:40 
+Because we tagged your assets in Housecall Pro during the setup. When the AI sees a "Rooftop" or "Parking Lot Light" keyword, it cross-references which vans have the lifts or the specific gear needed. It prevents the nightmare scenario of a tech showing up to a job only to realize he doesn't have a tall enough ladder.
+
+Speaker 3: 10:15 
+That is incredible. Honestly, that would save Brenda an hour of back-and-forth phone calls every single day. And the fact that it captured the gate code and put it right in the notes? That’s usually the first thing that gets lost in translation with the answering service.
+
+Speaker 1: 11:00 
+And the best part is the "Spam Filter." We know that commercial lines get hammered with solar sales, credit card processing offers, and SEO "experts." Clara filters 100% of that. She only passes through real customers and real leads. Brenda will come into the office in the morning and instead of 40 voicemails to sift through, she’ll have 5 booked jobs and 3 high-value quote requests ready to go.
+
+Speaker 3: 12:30 
+What does the dashboard look like? Can I see the transcripts of these calls? I’m a bit of a micromanager when it comes to customer service.
+
+Speaker 1: 12:45 
+(Laughs) We encourage that! You get a full analytics portal. Every call is transcribed and summarized. You can see the "Sentiment Score"—if a customer was angry, it flags it in red so you can call them personally to smooth things over. You’ll see your "Capture Rate" climb significantly.
+
+Speaker 3: 14:00 
+Let’s talk numbers. What are we looking at for an 8-tech operation?
+
+Speaker 1: 14:15 
+For your size, we have a Professional Tier. It’s a flat monthly platform fee plus a per-appointment-booked fee. Because you’re doing high-ticket commercial work, the ROI is usually massive. One emergency dispatch Clara catches at 2:00 AM pays for the entire monthly service. 
+
+Speaker 3: 15:05 
+I believe it. I want to try this. What’s the next step?
+
+Speaker 1: 15:20 
+I’ll send over the pilot agreement. It’s a 90-day trial period where we really fine-tune the "Logic Tree" for your commercial contracts. Once you sign, we’ll do a technical kickoff. We’ll need Brenda on that call too, so she can show us exactly how she likes the jobs labeled in Housecall Pro. Can you do tomorrow at 2:00 PM?
+
+Speaker 3: 15:50 
+Brenda and I are both available then. Let’s do it. Send the invite.
+
+Speaker 1: 16:10 
+Awesome, Sarah. I’m looking forward to helping you get some sleep! I’ll send the DocuSign and the calendar invite now.
+
+Speaker 3: 16:25 
+Thanks, Bharat. Talk tomorrow.
+
+Speaker 1: 16:35 
+Talk then.

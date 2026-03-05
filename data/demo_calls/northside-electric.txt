@@ -1,0 +1,94 @@
+Speaker 1: 00:00
+Alright, admitting Sarah into the room now. Three, two, one... and we're live.
+
+Speaker 2: 00:16
+Hi Sarah, Nick here. Can you hear and see us okay?
+
+Speaker 3: 00:22
+Hey Nick. Yeah, I’ve got you. Sorry if it’s a bit noisy, I’m actually on-site at a commercial build in the North End, just stepped into the trailer.
+
+Speaker 2: 00:27
+No problem at all, we appreciate you carved out some time. I know how the field can be. I have Bharat with me, our lead solutions architect. He’s the one who’s been working with electrical contractors across the country to dial in these AI agents. Bharat, I’ll let you take it from here.
+
+Speaker 1: 01:06
+Thanks, Nick. Sarah, pleasure to meet you. I was doing some homework on Northside Electric this morning—it looks like you guys have a massive footprint in commercial property maintenance. Is that the bulk of your work these days?
+
+Speaker 3: 01:22
+It is. My dad started the company 25 years ago doing mostly residential, but when I took over, we pivoted hard into commercial and industrial. We handle a lot of the shopping centers and medical offices in the area. It’s steady work, but the maintenance contracts mean we’re basically on call 24/7.
+
+Speaker 1: 03:15
+That’s a heavy lift. How many trucks are you running to manage those contracts?
+
+Speaker 3: 03:36
+We have four company vans with full-time journeymen, and I keep two subcontractors on a pretty tight leash for the overflow or for specialized industrial stuff. I’m hoping to get a fifth van on the road by Q3, but the hiring market is tough, and honestly, the office admin is already at its breaking point.
+
+Speaker 1: 05:03
+I hear that a lot. When you say the admin is at its breaking point, what does the current phone flow look like when a property manager has an emergency at 2:00 AM?
+
+Speaker 3: 05:30
+It’s a nightmare. Currently, we use an answering service after 6:00 PM. They’re fine for taking a name and number, but they have zero technical knowledge. They’ll wake me up at 3:00 AM because a tenant’s light is flickering, which could have waited until Monday. But then they might miss a real emergency, like a main breaker trip at a grocery store where they’re losing thousands in frozen inventory. I need someone—or something—that can actually triage.
+
+Speaker 1: 07:15
+That’s exactly the gap we fill. Are you currently using a CRM to manage those service calls?
+
+Speaker 3: 07:30
+We’re on Housecall Pro. It’s great for the guys in the field, but it doesn't solve the intake problem. I’m still spending three hours every evening manually entering job details from the answering service’s email notes.
+
+Speaker 1: 08:53
+What if I told you Clara could handle that triage for you? She knows the difference between a flickering LED and a commercial power outage. She can ask the tenant the right questions, determine the urgency based on your specific rules, and book it directly into Housecall Pro.
+
+Speaker 3: 15:40
+I’m skeptical, to be honest. My commercial clients are used to a certain level of professional "human" interaction. Does she sound like one of those automated bank menus?
+
+Speaker 1: 16:15
+Not at all. Let’s do a live test. I’m going to put a demo number on the screen. I want you to call it and act like a stressed-out property manager reporting a partial power loss at a retail plaza. Try to throw her a curveball—ask about our commercial rates or if we handle 3-phase transformers.
+
+Speaker 3: 21:06
+Alright, I’m dialing now. Putting it on speaker.
+
+(Sarah dials the number)
+
+Speaker 4 (AI): 22:28
+Thank you for calling Northside Electric. This is Clara. How can I help you today?
+
+Speaker 3: 22:32
+Yeah, hi. This is Sarah... uh, I mean, I'm a property manager at the Westgate Plaza. We’ve got half the building dark and the tenant is saying they hear a humming sound from the electrical room.
+
+Speaker 4 (AI): 22:45
+I understand, that sounds like a potential emergency. A humming sound combined with partial power loss could indicate a phase issue or a transformer problem. For safety, please ensure no one enters the electrical room until our technician arrives. Can I confirm the address is Westgate Plaza on North Main Street?
+
+Speaker 3: 23:05
+Yes, that’s the one. Do you guys even have anyone who can handle 480-volt systems?
+
+Speaker 4 (AI): 23:12
+Absolutely. All our commercial lead technicians are licensed for industrial and high-voltage systems, including 480V 3-phase setups. I can see we have an emergency team available to dispatch. Would you like me to book this as an "Emergency Commercial Call"? Our after-hours diagnostic rate for commercial properties is $250.
+
+Speaker 3: 23:35
+(To Speaker 1) Okay, that was surprisingly specific. She actually caught the "humming" detail.
+
+Speaker 1: 23:50
+And she gave the correct commercial rate we programmed in. She didn't just take a message; she validated the technical concern and set the expectation for the cost.
+
+Speaker 3: 44:35
+I’m impressed with the logic. My biggest fear is always the "garbage in, garbage out" problem with data. How does this look in my Housecall Pro?
+
+Speaker 1: 45:10
+It shows up as a "New Lead" or a "Scheduled Job," depending on how you want it. It includes the full transcript of the call and a summary of the technical issue. Your tech gets a notification on their phone, they read the summary, and they know exactly what they’re walking into before they even start the van.
+
+Speaker 3: 54:20
+That would save me a massive amount of time on the backend. What’s the catch? What happens if she gets a call about something we don’t do, like residential solar?
+
+Speaker 1: 55:05
+We program a "Negative List." If someone calls about solar, she’ll politely say, "Northside Electric specializes in commercial and industrial maintenance; we don't currently service residential solar. I can, however, recommend a local specialist if you’d like." She stays in her lane.
+
+Speaker 3: 01:05:15
+I like that. It keeps the brand professional. What’s the next step to see if this works for our fleet?
+
+Speaker 1: 01:07:37
+I’ll send over a pilot agreement for 90 days. We’ll spend the first week "training" her on your specific maintenance contracts and your pricing. We can have a kickoff call tomorrow at 10:00 AM to walk your office lead through the dashboard. How does that sound?
+
+Speaker 3: 01:11:26
+10:00 AM works. Send the paperwork over, and I'll review it tonight after I get off this site.
+
+Speaker 1: 01:11:54
+Perfect. I think Northside is going to be a great fit for this. Thanks for the time today, Sarah. Stay safe out there.

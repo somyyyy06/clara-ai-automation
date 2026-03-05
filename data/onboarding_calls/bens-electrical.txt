@@ -1,0 +1,109 @@
+Speaker 1: 00:00 
+All right, we'll let Ben in now in three, two, one. And he's in.
+
+Speaker 2: 00:16 
+Hey, Ben, can you hear me?
+
+Speaker 3: 00:22 
+Wait, can you hear me? Yeah.
+
+Speaker 2: 00:24 
+Yeah, I can. Perfect.
+
+Speaker 3: 00:25 
+Here we go.
+
+Speaker 2: 00:26 
+Okay, Ben, thank you so much for joining on such a short notice. And before starting, just wanted to introduce myself again. I'm Nick. I am part of the Clara team. We reach out to businesses across North America, and we have built this AI agents for trades, businesses specifically. And to help us with that, I have here with me my colleague Bharat, who's the solutions expert and the growth partner at Clara AI and he's the best person who knows everything in and out about the industry as well as the product. So he'll be the one who will be walking us through the presentation today. Over to you, Bharat.
+
+Speaker 1: 01:06 
+Thank you, Nick. Ben, good morning. How are you?
+
+Speaker 3: 01:09 
+I'm doing very well. How are you?
+
+Speaker 1: 01:11 
+Very well. I've been looking at your website, Ben’s Electrical. You’ve been in the game for quite some time in the Austin area, right?
+
+Speaker 3: 01:25 
+Yeah, about 12 years now. Started with just me in a single truck, and now we’ve grown to four full-time guys and three vans. We do mostly residential service—panel upgrades, lighting, and we’ve been doing a ton of EV charger installs lately because everyone in this neighborhood is buying a Tesla.
+
+Speaker 1: 02:10 
+That’s a great niche to be in. But with four guys and three vans, you’re right at that awkward size where you’re too big to handle the phones yourself, but maybe not quite big enough to hire a $50k-a-year full-time office manager. How are you handling the intake right now?
+
+Speaker 3: 02:35 
+Honestly, it’s a mess. I’m usually on a ladder or under a house, and my phone is just buzzing in my pocket. If I don't answer, they don't leave a message; they just call the next company. I try to return calls in the evening, but by then, I'm exhausted, and half the time they've already booked someone else. I feel like I'm losing thousands of dollars every month just because I can't be in two places at once.
+
+Speaker 1: 03:50 
+That’s the exact problem Clara was designed to solve. You mentioned you use ServiceTitan. Are you actually using the booking features there, or just for invoicing?
+
+Speaker 3: 04:10 
+We use it for everything, but the "Request" bucket is always empty because I don't have anyone to put the data in. I end up scribbling addresses on the back of receipts and then trying to type them into ServiceTitan at 9:00 PM.
+
+Speaker 1: 05:05 
+What if Clara could do that for you 24/7? She answers the call, qualifies the customer, explains your $99 diagnostic fee, and then puts the job directly onto your ServiceTitan dispatch board as a "Pending" job. No more receipts, no more missed calls. Let's do a demo. Call this number and act like a customer who has a dead outlet in their kitchen.
+
+Speaker 3: 07:25 
+All right, let's see. Dialing now... speaker is on.
+
+Speaker 4 (AI): 07:35 
+Thank you for calling Ben’s Electrical. This is Clara. How can I help you today?
+
+Speaker 3: 07:45 
+Hi, I have an outlet in my kitchen that just stopped working. I think it might be a GFCI thing but I can't get it to reset. Can you send someone out today?
+
+Speaker 4 (AI): 08:00 
+I'm sorry to hear about your kitchen outlet. Kitchen power issues can be a big inconvenience. I can certainly help get a technician out to troubleshoot that for you. Before I check the schedule, are you located within our primary service area in Austin?
+
+Speaker 3: 08:20 
+Yeah, I'm over in Steiner Ranch.
+
+Speaker 4 (AI): 08:25 
+Perfect, we service Steiner Ranch daily. We have an opening this afternoon between 1:00 PM and 3:00 PM. Our standard diagnostic fee is $99, which covers the first 30 minutes of troubleshooting. If a repair is needed, the technician will provide a fixed quote before starting. Does that work for you?
+
+Speaker 3: 08:50 
+Yeah, that's fine. 
+
+Speaker 4 (AI): 08:55 
+Great. I have you down for the 1:00 PM window. May I have your name and the exact street address to finalize the booking?
+
+Speaker 3: 09:15 
+It’s Ben at 4402 Vista Lane.
+
+Speaker 4 (AI): 09:20 
+Thank you, Ben. I’ve scheduled your appointment and you should receive a confirmation text momentarily. Is there anything else I can assist you with today?
+
+Speaker 3: 09:28 
+No, that's all.
+
+*(Call ends)*
+
+Speaker 3: 09:35 
+Bharat, that's wild. She sounded... normal. Not like those "Press 1 for Sales" robots. 
+
+Speaker 1: 09:45 
+And Ben, check your ServiceTitan dashboard right now.
+
+Speaker 3: 09:55 
+(Pauses) Wow. It's right there. "Kitchen Outlet - GFCI Troubleshooting - Steiner Ranch." All the notes are in there. I didn't have to do anything.
+
+Speaker 1: 15:40 
+This is why we’re excited. We can set her up to filter out the spam, handle your pricing, and even follow up with customers who didn't book. It’s a 3-month pilot to start. I've sent over a DocuSign to your email. You can just go through that contract, and should everything look good, you can go ahead and have it executed. It's very basic. And once that's done, we'll see you on the kickoff call tomorrow. I've already sent you the invite. Have you received it?
+
+Speaker 3: 01:11:26 
+No, it's there now.
+
+Speaker 1: 01:11:28 
+Okay, great. And once you have the paperwork executed, I will loop in my onboarding specialist. That’s just one formality we do—I can only loop them in once the paperwork's completed. But, yeah, I think we're good.
+
+Speaker 3: 01:11:49 
+Terrific.
+
+Speaker 1: 01:11:50 
+Awesome. Any questions for me, Ben?
+
+Speaker 3: 01:11:52 
+No, not right now, but thank you so much.
+
+Speaker 1: 01:11:54 
+I had a very good time talking to you and we're really excited to show you what this can do. And in the three months, you'll be able to see so much revenue coming in which you didn't even know you were missing. Talk to you tomorrow, Ben.

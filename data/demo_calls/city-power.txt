@@ -1,0 +1,106 @@
+Speaker 1: 00:00
+All right, we'll let Marcus in now in three, two, one. And he's in.
+
+Speaker 2: 00:16
+Hey, Marcus, Nick here. Can you hear me okay?
+
+Speaker 3: 00:22
+Yeah, I've got you. Just had to pull the van over so I could focus. How's it going?
+
+Speaker 2: 00:26
+Doing great. Marcus, thank you so much for joining on such short notice. Before we start, I’m Nick from the Clara team. We build AI agents specifically for the trades. With me is Bharat, our solutions expert. He’s the best person to walk you through how this actually works for a high-end electrical business like yours. Over to you, Bharat.
+
+Speaker 1: 01:06
+Thanks, Nick. Marcus, good morning. How are you?
+
+Speaker 3: 01:09
+I'm doing well, just keeping busy. You know how it is.
+
+Speaker 1: 01:11
+I do. I’m glad we could connect. My goal today is to understand your workflow at City Power & Light and see where we can plug in our AI to make things more efficient. But first, tell me about your journey. How long have you been running this?
+
+Speaker 3: 03:15
+I’ve been an electrician for about 20 years, but I’ve been running City Power for the last 12. We’ve carved out a niche in high-end residential—lots of Lutron lighting systems, smart home integration, and panel upgrades for these massive estates. It’s fun work, but the admin is a beast.
+
+Speaker 1: 05:03
+That’s impressive. I saw the Lutron certification on your site. How many guys do you have out in the field right now?
+
+Speaker 3: 05:36
+I’ve got five company vans on the road and six full-time technicians. I usually have one or two apprentices rotating through as well. I’m trying to hit seven vans by the end of the year, but every time I add a truck, my phone rings more, and I’m the one answering it while I’m trying to do quotes.
+
+Speaker 1: 07:15
+So you’re the owner, the lead estimator, and the secretary right now?
+
+Speaker 3: 07:30
+Pretty much. My wife helps with the books, but if a customer has a technical question about a smart switch or a 400-amp service upgrade, it has to come to me. We use ServiceTitan, which is great for dispatching, but it doesn't answer the phone.
+
+Speaker 1: 08:53
+Exactly. And with high-end residential, those customers expect a white-glove experience. If they hit a voicemail, they feel like they aren't a priority.
+
+Speaker 3: 09:10
+That’s the struggle. We do 24/7 emergency service for our "gold" clients, but I’m the one on call at 2:00 AM. I’ve tried an answering service before, but they were useless. They didn't know the difference between a tripped GFCI and a dead transformer.
+
+Speaker 1: 15:40
+That is exactly why we built Clara. She isn't a call center; she's an AI trained on electrical logic. She can troubleshoot, qualify, and even book the job directly into ServiceTitan. But don't take my word for it. Let's do a live demo. I'm going to flash a number on the screen. Call it and act like a customer with a serious issue.
+
+Speaker 3: 21:06
+Okay, I've got my phone ready. Let's see what she's got.
+
+(Marcus dials the number and puts it on speaker)
+
+Speaker 4 (AI): 22:28
+This is Clara from City Power & Light. How can I help you with your electrical needs today?
+
+Speaker 3: 22:32
+Yeah, hi. My Tesla charger stopped working and I’ve got a big event tonight. I need someone out here immediately.
+
+Speaker 4 (AI): 22:38
+I understand that’s urgent, especially with an event planned. I can certainly help get an electrician out to look at your EV charger. Before we look at the schedule, have you checked if the breaker in your main panel has tripped?
+
+Speaker 3: 22:50
+I checked, it's not the breaker. I think the outlet is burnt.
+
+Speaker 4 (AI): 22:57
+If you smell smoke or see any discoloration, please avoid touching the outlet. Can I get your name and the address so I can see which of our technicians is closest to you?
+
+Speaker 3: 23:09
+It's Marcus. I'm at 4422 Mountain View Drive.
+
+Speaker 4 (AI): 23:19
+Thank you, Marcus. I see that address is in the West Hills area. We have a technician finishing a job nearby in about an hour. Would you like me to book an emergency diagnostic visit for you? Our emergency fee is $199, which covers the first hour of troubleshooting.
+
+Speaker 3: 24:03
+Wait, can you tell me if you guys install the new Powerwall 3?
+
+Speaker 4 (AI): 24:07
+Yes, we are certified Tesla Energy installers. We can definitely discuss adding a Powerwall 3 to your system while the technician is there for the charger repair. Would you like me to add a note for the tech to bring the site assessment materials?
+
+Speaker 3: 25:03
+(To Speaker 1) Okay, that's actually pretty incredible. She knew the emergency fee and the product specs.
+
+Speaker 1: 25:27
+And the best part is, Marcus, while you were talking to her, a "Pending Job" was just created in your ServiceTitan dashboard with those exact notes. You didn't have to lift a finger.
+
+Speaker 3: 26:14
+The speed of it... it doesn't sound like those robotic menus. How much training does this take?
+
+Speaker 1: 31:38
+We spend about a week on onboarding. We ingest your specific pricing, your service zones, and your preferred "scripts." If you want her to be more aggressive on upselling maintenance plans, we turn that dial up. If you want her to be strictly professional, we do that too.
+
+Speaker 3: 44:35
+I'm impressed. I honestly thought it would be clunkier. What happens if she gets stuck?
+
+Speaker 1: 45:29
+If she encounters something she isn't sure about—like a complex industrial 3-phase question—she'll say, "That's a great technical question that requires our lead engineer. Let me transfer you to Marcus." Then your phone rings, and you get a text summary of everything they already talked about.
+
+Speaker 3: 54:50
+That would save me hours of repeating the same intake questions. Let's talk about the pilot program.
+
+Speaker 1: 01:07:37
+We usually start with a 3-month pilot to dial in the logic. I'll send over the DocuSign this afternoon. If we get that signed today, we can do the technical kickoff tomorrow morning at 9:00 AM. Does that work?
+
+Speaker 3: 01:11:26
+Tomorrow at 9:00 works for me. Send it over.
+
+Speaker 1: 01:11:54
+Fantastic. I’m looking forward to seeing the revenue this captures for you, Marcus. Talk soon.
