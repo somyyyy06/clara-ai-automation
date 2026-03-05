@@ -350,7 +350,7 @@ With production access the system could be improved by:
 A short demo video explains the workflow and outputs.
 
 ```
-[Insert Loom video link here]
+https://www.loom.com/share/05c6cd90675e4175b2a4c85487482a99
 ```
 
 ---
