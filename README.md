@@ -213,28 +213,19 @@ Run this docker docker command directly on your terminal to make the n8n localho
 
 
 ```
-docker run -it -p 5678:5678 `
-
--v n8n_data:/home/node/.n8n -v C:\Users\somya\OneDrive\Projects\clara-automation:/home/node/.n8n-files -e N8N_FILESYSTEM_WRITEABLE_PATH=/home/node/.n8n-files ` n8nio/n8n
+docker run -it -p 5678:5678 \
+-v n8n_data:/home/node/.n8n \
+-v ${PWD}:/home/node/.n8n-files \
+-e N8N_FILESYSTEM_WRITEABLE_PATH=/home/node/.n8n-files \
+n8nio/n8n
 ```
 
-After the Docker is running perfectly try opening these two links for 
-
-For Democ calls :
-```
-http://localhost:5678/workflow/uXqxmrbxIMWkSYjI
-```
-
-For Onboarding calls, the workflow is 
-```
-http://localhost:5678/workflow/4g5oX3CgZIaaX8zw
-```
-
-Open the interface in your browser:
+After starting the container open:
 
 ```
 http://localhost:5678
 ```
+
 
 ---
 
@@ -295,6 +286,19 @@ outputs/accounts/bens-electrical/changes.json
 ```
 
 ---
+
+After the Docker is running perfectly try opening these two links for if inside n8n Import workflow does not work else works:
+
+For Demo calls :
+```
+http://localhost:5678/workflow/uXqxmrbxIMWkSYjI
+```
+
+For Onboarding calls, the workflow is 
+```
+http://localhost:5678/workflow/4g5oX3CgZIaaX8zw
+```
+
 
 # Versioning Logic
 
