@@ -204,6 +204,14 @@ npm install -g n8n
 
 Start n8n:
 
+or use command through docker: 
+
+docker run -it -p 5678:5678 `
+>> -v n8n_data:/home/node/.n8n `
+>> -v C:\Users\somya\OneDrive\Projects\clara-automation:/home/node/.n8n-files `
+>> -e N8N_FILESYSTEM_WRITEABLE_PATH=/home/node/.n8n-files `
+>> n8nio/n8n
+
 ```
 n8n
 ```
